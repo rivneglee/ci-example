@@ -14,6 +14,6 @@ public class MessageServiceTests {
 
     @Test
     public void testIfGreetingMessageCorrect() {
-        Assert.assertEquals("Welcome to TW big family!!", service.getGreetingMessage());
+        Assert.assertEquals("欢迎加入TW!!", service.getGreetingMessage());
     }
 }
