@@ -5,6 +5,6 @@ import org.springframework.stereotype.Service;
 @Service
 public class MessageService {
    public String getGreetingMessage() {
-       return "Welcome to TW big family!!";
+       return "欢迎加入TW!!";
    }
 }
